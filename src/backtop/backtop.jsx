@@ -46,7 +46,7 @@ const styles = {
     backgroundColor: "#007bff",
     color: "#fff",
     border: "none",
-    borderRadius: "5%",
+    borderRadius: "50%",
     cursor: "pointer",
     zIndex: 1000,
   },
