@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import "../backtop/backtop.css";
 const BackToTop = () => {
   const [showButton, setShowButton] = useState(false);
 
@@ -31,9 +31,7 @@ const BackToTop = () => {
         onClick={scrollToTop}
         className="backtop"
         style={styles.backToTopButton}
-      >
-        Top
-      </button>
+      ></button>
     )
   );
 };
